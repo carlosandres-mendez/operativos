@@ -4,7 +4,7 @@ public class DateServer
 {
 	public static void main(String[] args) {
 		try {
-			ServerSocket sock = new ServerSocket(6013);
+			ServerSocket sock = new ServerSocket(1352);
 			/* now listen for connections */
 			while (true) {
 				Socket client = sock.accept();
